@@ -1,0 +1,113 @@
+
+head {
+    text-align: center;
+}
+
+body {
+    text-align: center;
+    font-family: 'Arial';
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url("https://images.unsplash.com/photo-1499591934245-40b55745b905?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.box {
+    color: white;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    height: 150px;
+    width: 400px;
+    border: 2px solid white;
+    padding-top: 20px;
+}
+
+/* NAVIGATION */
+
+nav {
+    width: 100%;
+    margin: 0;
+    background-color: antiquewhite;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav li {
+    display: inline;
+    padding: 25px;
+}
+
+.nav a {
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav li:hover {
+    background-color: rgb(223, 199, 168);
+}
+
+
+/* End of navigation */
+
+.lorem-1 {
+    margin: 20px;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+/* Chicago */
+
+.intro-1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url("https://images.unsplash.com/photo-1723581304040-fb9130361ae0?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+/* Sydeny */
+
+.intro-sydeny {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url("https://images.unsplash.com/photo-1657622884718-3a5cc0c4884a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.box-sydeny {
+    color: black;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    height: 150px;
+    width: 400px;
+    border: 2px solid black;
+    padding-top: 20px;
+}
+
+/* Tokyo */
+
+.intro-tokyo {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url("https://images.unsplash.com/photo-1551641506-ee5bf4cb45f1?q=80&w=1184&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
